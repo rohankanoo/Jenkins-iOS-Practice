@@ -50,7 +50,6 @@
 				A9E8ABCA813FC657A5E1CEA1 /* Pods-PracticingCICD.debug.xcconfig */,
 				EA4D054DC7CC0F3B386C1C73 /* Pods-PracticingCICD.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -363,7 +362,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2662UMC466;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticingCICD/Info.plist;
@@ -395,7 +394,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = WEXSM3M527;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticingCICD/Info.plist;
