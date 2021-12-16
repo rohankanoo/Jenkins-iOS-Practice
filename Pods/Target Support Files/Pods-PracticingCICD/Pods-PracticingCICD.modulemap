@@ -1,0 +1,6 @@
+framework module Pods_PracticingCICD {
+  umbrella header "Pods-PracticingCICD-umbrella.h"
+
+  export *
+  module * { export * }
+}
