@@ -14,8 +14,19 @@
 		AF2420BD276A55AB00DE0156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2420BC276A55AB00DE0156 /* Assets.xcassets */; };
 		AF2420C0276A55AB00DE0156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2420BE276A55AB00DE0156 /* LaunchScreen.storyboard */; };
 		AF2420C8276B304100DE0156 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF2420C7276B304000DE0156 /* GoogleService-Info.plist */; };
+		AF529E6A276D2F0100F8E6F4 /* PracticingCICDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF529E69276D2F0100F8E6F4 /* PracticingCICDTests.swift */; };
 		CA969BEF28CD0678C5A4A2AB /* Pods_PracticingCICD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E746EBDAF4C812153834FF3C /* Pods_PracticingCICD.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF529E6B276D2F0100F8E6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2420A8276A55A600DE0156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2420AF276A55A600DE0156;
+			remoteInfo = PracticingCICD;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A9E8ABCA813FC657A5E1CEA1 /* Pods-PracticingCICD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticingCICD.debug.xcconfig"; path = "Target Support Files/Pods-PracticingCICD/Pods-PracticingCICD.debug.xcconfig"; sourceTree = "<group>"; };
@@ -28,6 +39,8 @@
 		AF2420BF276A55AB00DE0156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2420C1276A55AB00DE0156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF2420C7276B304000DE0156 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF529E67276D2F0100F8E6F4 /* PracticingCICDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticingCICDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF529E69276D2F0100F8E6F4 /* PracticingCICDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticingCICDTests.swift; sourceTree = "<group>"; };
 		E746EBDAF4C812153834FF3C /* Pods_PracticingCICD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticingCICD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4D054DC7CC0F3B386C1C73 /* Pods-PracticingCICD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticingCICD.release.xcconfig"; path = "Target Support Files/Pods-PracticingCICD/Pods-PracticingCICD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +51,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA969BEF28CD0678C5A4A2AB /* Pods_PracticingCICD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF529E64276D2F0100F8E6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				AF2420B2276A55A600DE0156 /* PracticingCICD */,
+				AF529E68276D2F0100F8E6F4 /* PracticingCICDTests */,
 				AF2420B1276A55A600DE0156 /* Products */,
 				26594C0BBA0F9EB43E791FAB /* Pods */,
 				ACCECEEBB3FD06ABA2E29A28 /* Frameworks */,
@@ -75,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				AF2420B0276A55A600DE0156 /* PracticingCICD.app */,
+				AF529E67276D2F0100F8E6F4 /* PracticingCICDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +114,14 @@
 				AF2420C1276A55AB00DE0156 /* Info.plist */,
 			);
 			path = PracticingCICD;
+			sourceTree = "<group>";
+		};
+		AF529E68276D2F0100F8E6F4 /* PracticingCICDTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF529E69276D2F0100F8E6F4 /* PracticingCICDTests.swift */,
+			);
+			path = PracticingCICDTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +146,24 @@
 			productReference = AF2420B0276A55A600DE0156 /* PracticingCICD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AF529E66276D2F0100F8E6F4 /* PracticingCICDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF529E6F276D2F0100F8E6F4 /* Build configuration list for PBXNativeTarget "PracticingCICDTests" */;
+			buildPhases = (
+				AF529E63276D2F0100F8E6F4 /* Sources */,
+				AF529E64276D2F0100F8E6F4 /* Frameworks */,
+				AF529E65276D2F0100F8E6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF529E6C276D2F0100F8E6F4 /* PBXTargetDependency */,
+			);
+			name = PracticingCICDTests;
+			productName = PracticingCICDTests;
+			productReference = AF529E67276D2F0100F8E6F4 /* PracticingCICDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,11 +171,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					AF2420AF276A55A600DE0156 = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					AF529E66276D2F0100F8E6F4 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AF2420AF276A55A600DE0156;
 					};
 				};
 			};
@@ -145,6 +197,7 @@
 			projectRoot = "";
 			targets = (
 				AF2420AF276A55A600DE0156 /* PracticingCICD */,
+				AF529E66276D2F0100F8E6F4 /* PracticingCICDTests */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +211,13 @@
 				AF2420C8276B304100DE0156 /* GoogleService-Info.plist in Resources */,
 				AF2420BD276A55AB00DE0156 /* Assets.xcassets in Resources */,
 				AF2420BB276A55A600DE0156 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF529E65276D2F0100F8E6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +276,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF529E63276D2F0100F8E6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF529E6A276D2F0100F8E6F4 /* PracticingCICDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF529E6C276D2F0100F8E6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2420AF276A55A600DE0156 /* PracticingCICD */;
+			targetProxy = AF529E6B276D2F0100F8E6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AF2420B9276A55A600DE0156 /* Main.storyboard */ = {
@@ -418,6 +494,54 @@
 			};
 			name = Release;
 		};
+		AF529E6D276D2F0100F8E6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2662UMC466;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tothenew.PracticingCICDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticingCICD.app/PracticingCICD";
+			};
+			name = Debug;
+		};
+		AF529E6E276D2F0100F8E6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2662UMC466;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tothenew.PracticingCICDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticingCICD.app/PracticingCICD";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,6 +559,15 @@
 			buildConfigurations = (
 				AF2420C5276A55AB00DE0156 /* Debug */,
 				AF2420C6276A55AB00DE0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF529E6F276D2F0100F8E6F4 /* Build configuration list for PBXNativeTarget "PracticingCICDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF529E6D276D2F0100F8E6F4 /* Debug */,
+				AF529E6E276D2F0100F8E6F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
