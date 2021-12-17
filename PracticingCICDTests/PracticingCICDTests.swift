@@ -20,7 +20,7 @@ class PracticingCICDTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertEqual(2, 3, "Values are not equal")
+        XCTAssertEqual(3, 3, "Values are not equal")
     }
 
     func testPerformanceExample() throws {
